@@ -26,6 +26,7 @@ jobs:
     - name: Run service in java
       shell: bash
       run: mvn clean install 
+           java -jar *.jar
               
       
       
